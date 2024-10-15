@@ -1,5 +1,5 @@
 {% set name = "gleam" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/gleam-lang/gleam/archive/v{{ version }}.tar.gz
-  sha256: 1a3826d2d36f5442be34ec749895b03ed1538ef28e59b0134ff4001468f095f7
+  sha256: 9955f255567b7e975505ab3633841bc0650afabd4bb31f3a337bce91e2fc29de
 
 build:
   number: 0
