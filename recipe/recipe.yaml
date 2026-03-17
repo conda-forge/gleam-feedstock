@@ -1,5 +1,5 @@
 context:
-  version: "1.14.0"
+  version: "1.15.1"
 
 package:
   name: gleam
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/gleam-lang/gleam/archive/v${{ version }}.tar.gz
-  sha256: 2463831e404762b0a759db874907ab475474535ac2e976a9f249196e34ece054
+  sha256: 0583be154e097facff4ae718b226b5f112a0d105261bab96ee95902038dae16a
 
 build:
   number: 0
